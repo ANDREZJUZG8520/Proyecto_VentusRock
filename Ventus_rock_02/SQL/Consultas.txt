@@ -1,0 +1,19 @@
+-- Mostrar todos los instrumentos de una determinada categoria filtrado por un precio x
+SELECT * FROM INSTRUMENTOS WHERE CATEGORIA = '/*cuerdas/vientos/percucion/accesorios*/' AND PRECIO <= /*preciox*/;
+-- Mostrar la cantidad de instrumentos de una categoria 
+SELECT CATEGORIA, COUNT(*) AS NUMERO_DE_INSTRUMENTOS FROM INSTRUMENTOS GROUP BY CATEGORIA;
+-- Mostrar la cantidad de pedidos que se han realizado en un mes especifico
+SELECT COUNT(*) AS NUMERO_DE_PEDIDOS FROM PEDIDOS WHERE MONTH(FECHA) = /*Mesx*/;
+-- Mostrar los detalles de un pedido
+SELECT * FROM DETALLES_PEDIDO WHERE ID_PEDIDO = /*ID deseado*/;
+-- Mostrar la informacion de contacto de los clients que realizaron un pedido
+SELECT USUARIO.NOMBRE, USUARIO.CORREO , USUARIO.TELEFONO FROM USUARIO INNER JOIN PEDIDOS ON USUARIO.ID = PEDIDOS.ID_CLIENTE;
+-- Mostrar el numero de pedidos realizados por cada cliente
+SELECT USUARIO.ID, COUNT(*) AS NUMERO_DE_PEDIDOS FROM USUARIO INNER JOIN PEDIDOS ON USUARIO.ID = PEDIDOS.ID_CLIENTE GROUP BY USUARIO.ID;
+-- Mostrar la cantidad de instrumentos en stock de cada categoria
+SELECT CATEGORIA, SUM(STOCK) AS CANTIDAD_EN_STOCK FROM INSTRUMENTOS GROUP BY CATEGORIA;
+-- Mostrar los instrumentos que cumplan con cierto precio
+SELECT NOMBRE FROM INSTRUMENTOS WHERE PRECIO = <= /*Precio deseadox*/
+
+
+
