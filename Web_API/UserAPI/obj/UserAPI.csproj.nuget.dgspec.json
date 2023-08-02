@@ -1,0 +1,261 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserAPI\\UserAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserAPI\\UserAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserAPI\\UserAPI.csproj",
+        "projectName": "UserAPI",
+        "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserAPI\\UserAPI.csproj",
+        "packagesPath": "C:\\Users\\gabriel.piedrahita\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabriel.piedrahita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserBusiness\\UserBusiness.csproj": {
+                "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserBusiness\\UserBusiness.csproj"
+              },
+              "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj": {
+                "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserBusiness\\UserBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserBusiness\\UserBusiness.csproj",
+        "projectName": "UserBusiness",
+        "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserBusiness\\UserBusiness.csproj",
+        "packagesPath": "C:\\Users\\gabriel.piedrahita\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabriel.piedrahita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDBModel\\UserDBModel.csproj": {
+                "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDBModel\\UserDBModel.csproj"
+              },
+              "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj": {
+                "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.311\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDBModel\\UserDBModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDBModel\\UserDBModel.csproj",
+        "projectName": "UserDBModel",
+        "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDBModel\\UserDBModel.csproj",
+        "packagesPath": "C:\\Users\\gabriel.piedrahita\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDBModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabriel.piedrahita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj": {
+                "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj",
+        "projectName": "UserDomain",
+        "projectPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\UserDomain.csproj",
+        "packagesPath": "C:\\Users\\gabriel.piedrahita\\.nuget\\packages\\",
+        "outputPath": "C:\\Gabriel P\\Personal\\UMilitar\\Tecnologias de Internet\\Backend\\WebAPI\\UserDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabriel.piedrahita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
